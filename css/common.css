@@ -109,10 +109,96 @@ p {
 /* ------------------task-2------------------ */
 
 /* ------------------task-3------------------ */
+.title-task-three {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33333;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.input-task-three {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  margin-bottom: 16px;
+}
 /* ------------------task-3------------------ */
 
 /* ------------------task-4------------------ */
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-task-four {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.label-email-task-four {
+  margin-bottom: 8px;
+}
+
+.label-task-four {
+}
+
+.input-task-four {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+}
+
+.btn-task-four {
+  background: #4e75ff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 86px;
+  height: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  margin-top: 16px;
+}
 /* ------------------task-4------------------ */
 
 /* ------------------task-5------------------ */
+.widget {
+  border-radius: 8px;
+  padding: 100px 88px;
+  width: 345px;
+  height: 280px;
+  background: #fff;
+}
+
+.text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin-bottom: 16px;
+}
+
+.change-color {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 148px;
+  height: 40px;
+  background: #4e75ff;
+}
 /* ------------------task-5------------------ */
