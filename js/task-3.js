@@ -1,14 +1,33 @@
-function handleSubmit(event) {
-    event.preventDefault();
-  
-    const elements = event.target.elements;
-  
-    const info = {
-      email: elements.email.value,
-      password: elements.password.value,
-      comment: elements.comment.value
+const input = document.querySelector("input#name-input");
+
+const span = document.querySelector("span#name-output");
+
+input.addEventListener("input", (event) => {
+    span.textContent = event.target.value.trim();
+    
+    if (!span.textContent) {
+        span.textContent = "Anonymous";
     }
-  
-    console.log(info);
-    event.target.reset();
-  }
+    
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -47,6 +47,15 @@ p {
   margin: 0;
 }
 
+.go-back {
+  margin-bottom: 10px;
+}
+
+.go-back {
+  text-decoration-color: #4e75ff;
+  text-decoration: underline;
+}
+
 /* ------------------task-1------------------ */
 
 .top-list-task-one {
